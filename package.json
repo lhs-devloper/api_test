@@ -1,0 +1,24 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "api practice",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node server.js"
+  },
+  "keywords": [
+    "#api",
+    "#middleware"
+  ],
+  "author": "lhs",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/node": "^7.17.10",
+    "@babel/preset-env": "^7.18.2",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16"
+  }
+}
